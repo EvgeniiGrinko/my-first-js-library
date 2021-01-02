@@ -12,7 +12,7 @@ $('div').click(function() {
 
 // console.log($('div').eq(2).find('.some'));
 // console.log($('.more').closest('.findmeq').addClass('dd'))
-console.log($('.findme').siblings())
+$('button').fadeIn(5000)
 
 
 
