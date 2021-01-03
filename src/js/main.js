@@ -24,4 +24,40 @@ $('.wrap').html(
 );
 $('.dropdown-toggle').dropdown();
 
+$('#trigger').click(()=> {
+    $('#trigger').createModal({
+        text: {
+            title: 'Modal title Wauu!',
+            body: 'Lorem ipsum dolor sit amet consecteturlibero aliquam obcaecati, sequi aperiam aliquid!QQQQ!!!'
+        },
+        btns: {
+            count: 3,
+            settings: [
+                [
+                    'Close',
+                    ['btn-danger', 'mr-10'],
+                    true
+                ],
+                [
+                    'Save changes',
+                    ['btn-success'],
+                    false,
+                    () => {
+                        alert('Данные сохранены')
+                    }
+                ],
+                [
+                    "Another buttun",
+                    ['btn-warning', 'ml-10'],
+                    false,
+                    () => {
+                        alert('Hello, World!')
+                    }
+                ]
+            ]
+        }
+    });
+
+})
+
 
