@@ -12,7 +12,7 @@
         <button class="btn btn-primary m20" id="first">Fade out first text</button>
         <button class="btn btn-dark m20" data-count="second">Fade out second text</button>
         <button class="btn btn-warning m20">Fade out all texts</button>
-       <!-- Dropdown menu
+       <!-- Dropdown menu -->
        <div class="dropdown">
            <button class="btn btn-primary dropdown-toggle" id="dropdownMenuBtn">Dropdown button</button>
            <div class="dropdown-menu" data-toggle-id="dropdownMenuBtn">
@@ -20,10 +20,61 @@
             <a href="#" class="dropdown-item">Action #1</a>
             <a href="#" class="dropdown-item">Action #1</a>
            </div>
-       </div> -->
-       <div class="wrap">
-           
        </div>
+       <!-- Cards -->
+       <div class="goods d-flex f-space-around">
+        <div class="card">
+            <img class="card-img" src="https://u.9111s.ru/uploads/202007/25/937db3b511d88a65aade3670acb48a92.jpg" alt="photo">
+            <div class="card-body">
+                <div class="card-title">Card title</div>
+                <p class="card-text">Lorem ipsum dolor sit amet consecteturlibero aliquam obcaecati, sequi aperiam aliquid!</p>
+                <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal1">Link to</a>
+            </div>
+           </div>
+           <div class="card">
+            <img class="card-img" src="https://u.9111s.ru/uploads/202007/25/937db3b511d88a65aade3670acb48a92.jpg" alt="photo">
+            <div class="card-body">
+                <div class="card-title">Card title</div>
+                <p class="card-text">Lorem ipsum dolor sit amet consecteturlibero aliquam obcaecati, sequi aperiam aliquid!</p>
+                <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Link to</a>
+            </div>
+           </div>
+       </div>
+       <!-- Modal -->
+    <div class="modal" id="exampleModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button class="close" data-close>
+                    <span>&times;</span>
+                </button>
+                <div class="modal-header">
+                    <div class="modal-title">Modal title</div>
+                </div>
+                <div class="modal-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore ullam corporis minus necessitatibus quos. Quidem delectus ipsam pariatur cupiditate nulla architecto nemo in placeat minima vero. Eius, facilis? Nemo, asperiores.</div>
+                <div class="modal-footer">
+                    <button class="btn btn-danger" data-close>Close</button >
+                        <button class="btn btn-success">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="exampleModal1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button class="close" data-close>
+                    <span>&times;</span>
+                </button>
+                <div class="modal-header">
+                    <div class="modal-title">Modal title #1!</div>
+                </div>
+                <div class="modal-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore ullam corporis minus necessitatibus quos. Quidem delectus ipsam pariatur cupiditate nulla architecto nemo in placeat minima vero. Eius, facilis? Nemo, asperiores.</div>
+                <div class="modal-footer">
+                    <button class="btn btn-danger" data-close>Close</button >
+                        <button class="btn btn-success">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
     </div>
     <script src='script.js'></script>
 </body>
